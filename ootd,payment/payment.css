@@ -1,0 +1,210 @@
+html,
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  height: 100%;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  max-width: 1200px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.search-box {
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px #d1d1d1;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+#search {
+  height: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  flex: 1;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  background-color: black;
+}
+
+.navigation {
+  gap: 20px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 5px 15px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.user-buttons {
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
+.main-container {
+  display: flex;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.main-box {
+  margin: 50px;
+}
+.text-main {
+  display: flex;
+  gap: 50px;
+}
+.Questions > input {
+  background: black;
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.sub-container {
+  width: 40%;
+  background: black;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.sub-box {
+  margin: 50px;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.summary-1,
+.summary-2,
+.summary-3 {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid;
+}
+.summary-1text,
+.summary-2text,
+.summary-3text {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtotal,
+.Shipping,
+.Total {
+  display: flex;
+  justify-content: space-between;
+}
+.Shipping {
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+.footer-box {
+  margin-top: 100px;
+  background-color: gray;
+}
+
+.footer {
+  gap: 80px;
+  width: fit-content;
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.footer-title {
+  margin: 0;
+}
+
+.seller-list {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-us-box {
+  margin-top: auto;
+}
+
+.link-list,
+.icon-list {
+  flex: 1;
+  gap: 20px;
+}
+
+.link-list {
+  display: flex;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.link-item {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-list {
+  gap: 20px;
+  display: flex;
+  font-size: 25px;
+  align-items: end;
+}
+
+.fa-brands {
+  cursor: pointer;
+}
+.search-box > i {
+  display: flex;
+}

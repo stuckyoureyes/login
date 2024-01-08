@@ -1,0 +1,300 @@
+* {
+  border: 1px solid red;
+}
+html,
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  height: 100%;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  max-width: 1200px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.search-box {
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px #d1d1d1;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  transition: 0.5s;
+}
+.search-box > i {
+  display: flex;
+}
+
+#search {
+  height: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  flex: 1;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  background-color: black;
+}
+
+.navigation {
+  gap: 20px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 5px 15px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.user-buttons {
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+}
+.title {
+  margin-left: 245px;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+.button-box {
+  display: flex;
+  gap: 20px;
+}
+.button-box > input {
+  width: 80px;
+  height: 30px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+.img-container {
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+.img-box {
+  width: 100%;
+  flex: 2;
+}
+.img-box > img {
+  width: 100%;
+  height: 100%;
+}
+.img-box1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+.img-box1 > img {
+  width: 100%;
+  height: 100%;
+}
+.subtitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 245px;
+  max-width: 1200px;
+}
+.collections {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+.collections2 {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  max-width: 1200px;
+  margin-bottom: 50px;
+  display: none;
+}
+.collections-box1,
+.collections-box2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.N {
+  display: flex;
+  gap: 20px;
+  height: 70%;
+  margin: 15px;
+}
+.A {
+  display: flex;
+  height: 70%;
+  gap: 20px;
+  margin: 15px;
+}
+.collections-textbox1,
+.collections-textboxA {
+  padding-left: 15px;
+}
+.collections-textbox1 > h3,
+.collections-textboxA > h3 {
+  padding-left: 5px;
+}
+.collections-imgbox1,
+.collections-imgboxA {
+  width: 70%;
+}
+.collections-imgbox2,
+.collections-imgboxB {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+.collections-imgbox1 > img,
+.collections-imgboxA > img {
+  width: 100%;
+  height: 100%;
+}
+.collections-imgbox2 > img,
+.collections-imgboxB > img {
+  width: 100%;
+  height: 50%;
+}
+.profile-box,
+.profile-box2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.profile-box > input,
+.profile-box2 > input {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 5px;
+  background-size: cover;
+  cursor: pointer;
+}
+.profile-box > span,
+.profile-box2 > span {
+  margin-left: 10px;
+  flex: 1;
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+.profile-box > button,
+.profile-box2 > button {
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+.load-more {
+  text-align: center;
+  margin: 50px;
+}
+.load-more > input {
+  width: 160px;
+  height: 40px;
+  color: #fff;
+  background: black;
+  cursor: pointer;
+}
+.footer-box {
+  margin-top: 100px;
+  background-color: gray;
+}
+
+.footer {
+  gap: 80px;
+  width: fit-content;
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.footer-title {
+  margin: 0;
+}
+
+.seller-list {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-us-box {
+  margin-top: auto;
+}
+
+.link-list,
+.icon-list {
+  flex: 1;
+  gap: 20px;
+}
+
+.link-list {
+  display: flex;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.link-item {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-list {
+  gap: 20px;
+  display: flex;
+  font-size: 25px;
+  align-items: end;
+}
+
+.fa-brands {
+  cursor: pointer;
+}
